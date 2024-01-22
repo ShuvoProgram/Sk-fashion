@@ -102,9 +102,9 @@ const Nav = () => {
           <Link href={"/"} className="logo flex-[0.2]">
             <Image
               src="/assets/logo.png"
-              width={80}
-              height={80}
-              className="mr-auto max-w-[80px] lg:ml-auto w-auto h-auto"
+              width={50}
+              height={50}
+              className="mr-auto max-w-[50px] lg:ml-auto w-auto h-auto"
               alt="logo"
             />
           </Link>

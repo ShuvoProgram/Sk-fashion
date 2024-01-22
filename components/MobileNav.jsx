@@ -19,9 +19,9 @@ const MobileNav = ({ navlinks, isNavOpen, setIsNavOpen }) => {
           >
             <Image
               src="/assets/logo.png"
-              width={80}
-              height={80}
-              className="mr-auto min-w-[40px] max-w-[60px] lg:ml-auto w-auto h-auto"
+              width={50}
+              height={50}
+              className="mr-auto min-w-[30px] max-w-[50px] lg:ml-auto w-auto h-auto"
               alt="logo"
             />
           </Link>
