@@ -105,8 +105,8 @@ const Blog = () => {
           <div className="catergory">
             <h3 className={`${styles.h3} mt-6`}>Category</h3>
             <ul>
-              {blogCategories.map((item, idx) => (
-                <li key={idx} className="flex justify-between items-center mt-5 text-subHeading_color">
+              {blogCategories.map((item) => (
+                <li className="flex justify-between items-center mt-5 text-subHeading_color">
                   <span>{item}</span>
                   <span>8</span>
                 </li>

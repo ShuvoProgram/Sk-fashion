@@ -1,6 +1,11 @@
 "use client";
+
+import { db } from "@/firebase/firebase";
 import {
- 
+  getAllProducts,
+  setLastVisible,
+  setLoading,
+  setProductsLength,
   sortBy,
 } from "@/redux/features/filterSlice";
 import CloseDropdownOnClick from "@/utils/CloseDropdownOnClick";

@@ -9,7 +9,7 @@ const Orders = () => {
             You have not placed any orders.
           </p>
           <p className="mt-6 text-[500] text-black">
-            Here are the orders youve placed since your account was created.
+            Here are the orders you've placed since your account was created.
           </p>
         </div>
       </div>
