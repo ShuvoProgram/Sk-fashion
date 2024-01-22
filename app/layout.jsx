@@ -8,8 +8,8 @@ import UpdateProductModal from "@/components/dashboard/add-products/UpdateProduc
 import Providers from "@/redux/provider";
 
 export const metadata = {
-  title: "Ak fashion",
-  description: "Build by Md Kayesh",
+  title: "Sk fashion",
+  description: "Export Quality Products",
 };
 
 export default function RootLayout({ children }) {
