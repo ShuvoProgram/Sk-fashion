@@ -50,8 +50,8 @@ const Footer = () => {
             <div className="flex">
               <Image
                 src="/assets/white-logo.png"
-                width={100}
-                height={100}
+                width={80}
+                height={80}
                 alt="Ak fashion"
               />
             </div>
