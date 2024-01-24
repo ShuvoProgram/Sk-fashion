@@ -10,7 +10,6 @@ export const logInWithGoogle = createAsyncThunk(
   async () => {
     const provider = new GoogleAuthProvider();
     const result = await signInWithPopup(auth, provider);
-
     return result.user;
   }
 );
@@ -57,7 +56,6 @@ const authSlice = createSlice({
   },
 
   //   extra reducers
-
   extraReducers: (builder) => {
     builder.addCase(logInWithGoogle.fulfilled, (state, { payload }) => {
       // check whether the user is admin or not
