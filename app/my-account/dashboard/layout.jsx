@@ -12,16 +12,16 @@ const DashLayout = ({ children }) => {
   const { user } = useSelector((state) => state.authSlice);
   const router = useRouter();
 
-  console.log(process.env.NEXT_PUBLIC_ADMIN_ID);
-  console.log(user?.uid);
+  // console.log(process.env.NEXT_PUBLIC_ADMIN_ID);
+  // console.log(user?.uid);
 
-  useEffect(() => {
-    if (!user && user?.uid !== process.env.NEXT_PUBLIC_ADMIN_ID) {
-      router.push("/");
-    }
+  // useEffect(() => {
+  //   if (!user && user?.uid !== process.env.NEXT_PUBLIC_ADMIN_ID) {
+  //     router.push("/");
+  //   }
 
-    return () => null;
-  }, [user]);
+  //   return () => null;
+  // }, [user]);
 
   return (
     <div className="h-screen flex fixed top-0 left-0 w-full bg-white">
