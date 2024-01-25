@@ -12,6 +12,8 @@ const DashLayout = ({ children }) => {
   const { user } = useSelector((state) => state.authSlice);
   const router = useRouter();
 
+  console.log(user);
+
   useEffect(() => {
     if (!user && user?.uid !== process.env.NEXT_PUBLIC_ADMIN_ID) {
       router.push("/");

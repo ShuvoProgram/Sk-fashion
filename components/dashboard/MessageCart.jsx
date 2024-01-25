@@ -13,7 +13,7 @@ const MessageCart = () => {
           alt="user"
         />
         <div className="message text-sm">
-          <h2 className="text-heading_color text-semibold">Akash Khan</h2>
+          <h2 className="text-heading_color text-semibold">Shuvo Khan</h2>
           <p className="line-clamp-1">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum
             excepturi corporis perspiciatis ex tenetur at aut quos perferendis
