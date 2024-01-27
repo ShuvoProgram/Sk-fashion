@@ -48,13 +48,13 @@ const Navbar = () => {
                 setIsOpenNotify(false);
               }}
             >
-              <Image
+              {/* <Image
                 src={user?.photoURL}
                 width={50}
                 height={50}
                 className="min-w-[40px] min-h-[40px] w-12 h-12 rounded-full cursor-pointer"
                 alt="user"
-              />
+              /> */}
               <DownCarret className="cursor-pointer" />
             </div>
             <CloseDropdownOnClick
