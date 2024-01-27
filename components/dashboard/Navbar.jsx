@@ -67,7 +67,7 @@ const Navbar = () => {
                   : "invisible translate-y-2 opacity-0"
               } absolute top-full -left-44 rounded-2xl border backdrop-blur-sm z-30 transition-all duration-500 w-[260px] shadow-md overflow-hidden bg-[#ffffff8f]`}
             >
-              <Profile user={user} />
+              {/* <Profile user={user} /> */}
             </CloseDropdownOnClick>
           </div>
 
